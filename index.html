@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nokoSocial - Responsive Social Media Website Using HTML, CSS & JavaScript</title>
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- STYLESHEET-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="log">
+                nokoSocial
+            </h2>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for creators, inspirations, and projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img src="149.png" >
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!----------------- MAIN ----------------->
+    <main>
+        <div class="container">
+            <!----------------- LEFT ----------------->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="149.png">
+                    </div>
+                    <div class="handle">
+                        <h4>DragonNight</h4>
+                        <p class="text-muted">
+                            @dnight
+                        </p>
+                    </div>
+                </a>
+
+                <!-- SIDEBAR -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span><h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-compass"></i></span><h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notification">
+                        <span><i class="uil uil-bell"><small class="notifications-count">9+</small></i></span><h3>Notifications</h3>
+                    </a>
+                        <!--NOTIFICATION POPUP-->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="152.png">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Chikorita</b> Accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="155.png">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Cyndaquill</b> Commented on your post
+                                    <small class="text-muted">1 HOURS AGO</small>
+                                </div>
+                            </div>
+                        
+                        <div class="profile-photo">
+                                    <img src="158.png">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Tododile</b> Liked your post
+                                    <small class="text-muted"> 30 MINUTES AGO</small>
+                                </div>
+                            </div>
+                        
+                        <div class="profile-photo">
+                                    <img src="248.png">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Tyranitar</b> Accepted your friend request
+                                    <small class="text-muted">2 HOURS AGO</small>
+                                </div>
+                            </div>
+                        
+                        <div class="profile-photo">
+                                    <img src="252.png">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Treeko</b> Liked your post
+                                    <small class="text-muted"> 3 MINUTES AGO</small>
+                                </div>
+                            </div>
+                        
+                        <div class="profile-photo">
+                                    <img src="255.png">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Torchic</b> Tagged you on a post
+                                    <small class="text-muted"> 5 MINUTES AGO</small>
+                                </div>
+                            </div>
+                        
+                        <!---END NOTIFICATION POPUP-->
+                    
+                    <a class="menu-item" id="messages-notfiications">
+                        <span><i class="uil uil-envelope-alt"><small class="notifications-count">9</small></i></span><h3>Messages</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-bookmark"></i></span><h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-chart-line"></i></span><h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-palette"></i></span><h3>Theme</h3>
+                    </a>
+                    <a class="menu-item active">
+                        <span><i class="uil uil-setting"></i></span><h3>Settings</h3>
+                    </a>
+                </div>
+            <!-- END OF SIDEBAR-->
+            <label for="create-post" class="btn btn-primary">Create Post</label>
+        </div>
+        <!--end of left-->
+            
+
+
+            <!----------------- MIDDLE ----------------->
+            <div class="middle">
+                <!--stories-->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="258.png">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="373.png">
+                        </div>
+                        <p class="name">Salamance</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="376.png">
+                        </div>
+                        <p class="name">Metagross</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="382.png">
+                        </div>
+                        <p class="name">Kyogre</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="383.png">
+                        </div>
+                        <p class="name">Groudon</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="384.png">
+                        </div>
+                        <p class="name">Rayquaza</p>
+                    </div>
+            </div>
+            <!--END OF STORIES-->
+            <form class="create-post">
+                <div class="profile-photo">
+                    <img src="149.png">
+                </div>
+                <input type="text" placeholder="What's on your mind, DragonNight?" id="create-post">
+                <input type="submit" value="Post" class="btn btn-primary">
+            </form>
+        
+            <!--Feeds-->
+            <div class="feeds">
+                <!--Feed 1-->
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="387.png">
+                            </div>
+                            <div class="ingo">
+                                <h3>Turtwig</h3>
+                                <small>Sinnoh, 15 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class="uil uil-ellipsis-h"></i>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="390.png">
+                    </div>
+
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class="uil uil-bookmark-full"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="393.png"></span>
+                        <span><img src="495.png"></span>
+                        <span><img src="498.png"></span>
+                        <p>Like by <b>Chimchar</b> and  <b>2,323 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p> <b>Turtwig</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit? #lifestyle <span class="harsh-tag"></span></p>
+                    </div>
+                    <div class="comments text-muted">View all 277 comments</div>
+                </div>
+                <!--end of feed-->
+                <!--Feed2-->
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="152.png">
+                            </div>
+                            <div class="ingo">
+                                <h3>Chickorita</h3>
+                                <small>Johto, 1 HOUR AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class="uil uil-ellipsis-h"></i>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="258.png">
+                    </div>
+
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class="uil uil-bookmark-full"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="390.png"></span>
+                        <span><img src="384.png"></span>
+                        <span><img src="498.png"></span>
+                        <p>Like by <b>Mudkip</b> and  <b>5,816 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p> <b>Chickorita</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit? #lifestyle <span class="harsh-tag"></span></p>
+                    </div>
+                    <div class="comments text-muted">View all 682 comments</div>
+                </div>
+                <!--end of feed-->
+                <!--Feed3-->
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="495.png">
+                            </div>
+                            <div class="ingo">
+                                <h3>Snivy</h3>
+                                <small>Unova, 2 HOURS AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class="uil uil-ellipsis-h"></i>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="373.png">
+                    </div>
+
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class="uil uil-bookmark-full"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="376.png"></span>
+                        <span><img src="248.png"></span>
+                        <span><img src="390.png"></span>
+                        <p>Like by <b>Salamance</b> and  <b>1,242 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p> <b>Snivy</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit? #lifestyle <span class="harsh-tag"></span></p>
+                    </div>
+                    <div class="comments text-muted">View all 72 comments</div>
+                </div>
+                <!--end of feed-->
+                <!--Feed4-->
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="376.png">
+                            </div>
+                            <div class="ingo">
+                                <h3>Metagross</h3>
+                                <small>Hoenn, 5 HOURS AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class="uil uil-ellipsis-h"></i>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="390.png">
+                    </div>
+
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class="uil uil-bookmark-full"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="384.png"></span>
+                        <span><img src="495.png"></span>
+                        <span><img src="498.png"></span>
+                        <p>Like by <b>Rayquaza/b> and  <b>9,982 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p> <b>Metagross</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit? #lifestyle <span class="harsh-tag"></span></p>
+                    </div>
+                    <div class="comments text-muted">View all 277 comments</div>
+                </div>
+                <!--end of feed-->
+                <!--Feed5-->
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="387.png">
+                            </div>
+                            <div class="ingo">
+                                <h3>Oshuwat</h3>
+                                <small>Unova, 35 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class="uil uil-ellipsis-h"></i>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="387.png">
+                    </div>
+
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class="uil uil-bookmark-full"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="152.png"></span>
+                        <span><img src="155.png"></span>
+                        <span><img src="252.png"></span>
+                        <p>Like by <b>Turtwig</b> and  <b>5,335 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p> <b>Oshuwat</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit? #lifestyle <span class="harsh-tag"></span></p>
+                    </div>
+                    <div class="comments text-muted">View all 128 comments</div>
+                </div>
+                <!--end of feed-->
+                <!--Feed6-->
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="383.png">
+                            </div>
+                            <div class="ingo">
+                                <h3>Groudon</h3>
+                                <small>Hoenn, 10 MINUTES AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class="uil uil-ellipsis-h"></i>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="382.png">
+                    </div>
+
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class="uil uil-bookmark-full"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="393.png"></span>
+                        <span><img src="387.png"></span>
+                        <span><img src="650.png"></span>
+                        <p>Like by <b>Kyogre</b> and  <b>15,872 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p> <b>Groudon</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit? #lifestyle <span class="harsh-tag"></span></p>
+                    </div>
+                    <div class="comments text-muted">View all 1,937 comments</div>
+                </div>
+                <!--end of feed-->
+                <!--Feed7-->
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-photo">
+                                <img src="650.png">
+                            </div>
+                            <div class="ingo">
+                                <h3>Chespin</h3>
+                                <small>Kalos, 1 DAY AGO</small>
+                            </div>
+                        </div>
+                        <span class="edit">
+                            <i class="uil uil-ellipsis-h"></i>
+                        </span>
+                    </div>
+
+                    <div class="photo">
+                        <img src="383.png">
+                    </div>
+
+                    <div class="action-buttons">
+                        <div class="interaction-buttons">
+                            <span><i class="uil uil-heart"></i></span>
+                            <span><i class="uil uil-comment-dots"></i></span>
+                            <span><i class="uil uil-share-alt"></i></span>
+                        </div>
+                        <div class="bookmark">
+                            <span><i class="uil uil-bookmark-full"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="384.png"></span>
+                        <span><img src="501.png"></span>
+                        <span><img src="373.png"></span>
+                        <p>Like by <b>Groudon</b> and  <b>7,906 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p> <b>Chespin</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit? #lifestyle <span class="harsh-tag"></span></p>
+                    </div>
+                    <div class="comments text-muted">View all 1,938 comments</div>
+                </div>
+                <!--end of feed-->
+            </div>
+            <!--END OF FEEDS-->
+        </div>
+        <!----------------- End of middle ----------------->
+
+        
+                <!----------------- RIGHT ----------------->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <!--Search BAr-->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search messages" id="messgaes-search">
+                    </div>
+                    <!--Messages category-->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <!--Message-->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="653.png">
+                        </div>
+                        <div class="message-body">
+                            <h5>Fenekin</h5>
+                            <p class="text-muted">Just woke up bruh</p>
+                        </div>
+                    </div>
+                    </div>
+                    <!--Message-->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="383.png">
+                        </div>
+                        <div class="message-body">
+                            <h5>Groudon</h5>
+                            <p class="text-muted">Wuts up</p>
+                        </div>
+                    </div>
+                    <!--Message-->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="384.png">
+                        </div>
+                        <div class="message-body">
+                            <h5>Rayquaza</h5>
+                            <p class="text-bold">what goes on?</p>
+                        </div>
+                    </div>
+                    <!--Message-->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="382.png">
+                        </div>
+                        <div class="message-body">
+                            <h5>Kyogre</h5>
+                            <p class="text-bold">2 new messages</p>
+                        </div>
+                    </div>
+                    <!--Message-->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="706.png">
+                        </div>
+                        <div class="message-body">
+                            <h5>Goodra</h5>
+                            <p class="text-muted">Heyo</p>
+                        </div>
+                    </div>
+                    <!--Message-->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="656.png">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Froakie</h5>
+                            <p class="text-muted">lol u right</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End of Messages-->
+
+                
+                <!--Friend requests-->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="656.png">
+                            </div>
+                        </div>
+                        <h5>Froakie</h5>
+                        <p class="text-muted">
+                            8 mutual friends
+                        </p>
+                    </div>
+                </div>
+                <div class="action">
+                    <button class="btn btn-primary">
+                        Accept
+                    </button>
+                    <button class="btn btn-primary">
+                        Decline
+                    </button>
+                </div>
+                <!--End of right-->
+              </div>
+    </main>
+<!--theme customization-->
+<div class="customize-theme">
+    <div class="card">
+        <h2>Customize your view</h2>
+        <p class="text-muted">Manage your font size, color, and background.</p>
+
+        <!--Font sizes-->
+        <div class="font-size">
+            <h4>Font size</h4>
+        </div>
+        <h6>Aa</h6>
+        <div class="choose-size">
+            <span class="font-size-1"></span>
+            <span class="font-size-2 active"></span>
+            <span class="font-size-3"></span>
+            <span class="font-size-4"></span>
+            <span class="font-size-5"></span>
+        </div>
+        <h3>Aa</h3>
+    </div>
+</div>
+
+<!--Primary colors-->
+<div class="color">
+    <div class="choose-color">
+        <span class="color-1 active"></span>
+        <span class="color-2"></span>
+        <span class="color-3"></span>
+        <span class="color-4"></span>
+        <span class="color-5"></span>
+    </div>
+</div>
+
+<!--background colors-->
+<div class="background">
+    <div class="choose-bg">
+        <div class="bg-1">
+            <span></span>
+            <h5 for="bg-1 active">Light</h5>
+        </div>
+        <div class="bg-2">
+            <span></span>
+            <h5>Dim</h5>
+        </div>
+        <div class="bg-3">
+            <span></span>
+            <h5 for="bg3">Lights Out</h5>
+        </div>
+    </div>
+</div>
+
+<script src="./index.js"></script>
+</body>
+</html>
